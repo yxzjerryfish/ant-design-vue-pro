@@ -91,6 +91,14 @@ module.exports = {
       });
       return;
     }
+    if (password === "123" && userName === "user") {
+      res.send({
+        status: "ok",
+        type,
+        currentAuthority: "user"
+      });
+      return;
+    }
     res.send({
       status: "error",
       type,
