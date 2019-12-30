@@ -91,7 +91,7 @@ module.exports = {
       });
       return;
     }
-    if (userName === "123") {
+    if (userName === "123456") {
       res.send({
         status: "ok",
         type,
