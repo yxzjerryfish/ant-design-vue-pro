@@ -91,7 +91,7 @@ module.exports = {
       });
       return;
     }
-    if (password === "123" && userName === "user") {
+    if (userName === "123") {
       res.send({
         status: "ok",
         type,
